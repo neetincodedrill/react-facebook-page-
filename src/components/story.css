@@ -1,0 +1,33 @@
+
+.card-component{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.card{
+    position:relative;
+   margin-left:8px
+}
+
+.card .user-story{
+    min-height:150px;
+    max-width:100px;
+    border-radius:10px;
+    
+}
+
+.card .user{
+    max-width:40px;
+    max-height:40px;
+    border:4px soild #0165E1;
+    border-radius:50%;
+    position:absolute;
+    top:5px;
+    right:50px
+}
+
+.card p{
+    position:absolute;
+    bottom:0px
+}

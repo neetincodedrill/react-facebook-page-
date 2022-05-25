@@ -1,0 +1,217 @@
+.info-container{
+    max-width:80%;
+}
+
+/* story-board css start here */
+
+.story-board{
+    display:flex;
+    flex-direction:row;
+    margin-top:20px;
+    
+   
+}
+
+.create-story{
+    display:flex;
+    flex-direction:column;
+    box-shadow: 1px 1px 3px rgb(223, 221, 221);
+    background-color:white;
+    border-radius:10px;
+    position: relative;
+}
+
+
+.create-story img{
+    min-width:100%;
+    max-height:110px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.create-story i{
+    background-color:  #0165E1;
+    max-width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    padding:5px 5px;
+    border-radius: 50%;
+    font-size:18px;
+    border:4px solid white;
+    position:absolute;
+    top:90px;
+    left:30px
+}
+
+.create-story h4{
+    font-size:12px;
+    padding:0px 15px;
+    margin-bottom:10px
+}
+/* story-board css end here */
+
+/* create-post css start here */
+.create-post{
+    padding:5px 10px 5px 10px;
+    box-shadow: 2px 2px 8px grey;
+    background-color:white;
+    border-radius: 5px;
+    margin:20px 0px;
+}
+
+.create{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-top:5px
+}
+
+.create img{
+    min-height:35px;
+    max-width:35px;
+    border-radius: 50%;
+} 
+
+.create input{
+    min-width:520px;
+    background-color:#DCDCDC;
+    outline:none;
+    border:none;
+    padding: 10px 0px 10px 10px;
+    border-radius: 20px;
+    margin:0px 0px 0px 10px
+}
+
+hr{
+    border-top: 0.5px solid #edeaea;
+}
+
+.post-option{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-option div{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.post-option div i{
+    font-size:18px
+}
+
+.post-option div p{
+   padding-left:10px;
+   font-size:14px
+}
+
+/* create-post css end here */
+
+/* create-room css start here */
+.create-room{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    box-shadow:2px 2px 8px grey;
+    background-color:white;
+    padding:5px 10px;
+    border-radius:5px;
+    margin-bottom:20px
+}
+
+.video{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    border:1px solid #DCDCDC;
+    border-radius:20px;
+    padding:0px 10px 0px 15px
+}
+
+.video p{
+    margin:7px 0px;
+    padding:0px 0px 0px 8px;
+    font-size:15px
+}
+
+   .images img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin-left:10px
+   }
+
+   .arrow{
+       padding:10px 15px 10px 15px;
+       border-radius:20px;
+       margin-left:10px;
+       box-shadow: 0px 1px 3px grey;
+       color:grey
+   }
+/* create-room css end here */
+
+/* user-post css start here */
+.user-post{
+    display:flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px grey;
+    background-color:white;
+    padding:10px 0px 0px 0px;
+    border-radius:5px
+}
+
+.post-header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0px 15px 0 15px;
+}
+
+.icon i{ 
+    color:grey
+}
+
+.post-header img{
+    height:40px;
+    width:40px;
+    border-radius:50%
+}
+
+.post-header .user-content{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.user-content div {
+    margin-left:10px
+}
+
+.user-content div h4{
+    margin:4px 0px 2px 0px;
+}
+
+.user-content div p{
+    margin:2px 0px 0px 0px;
+    font-size:14px
+}
+
+.post p{
+    padding-left:10px;
+    margin-top:4px;
+    margin-bottom:10px;
+    font-size:15px
+}
+
+.post img{
+    width:100%;
+    height:250px
+}
+/* user-post css end here */
