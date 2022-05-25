@@ -1,4 +1,4 @@
-import pic from "../spain.png";
+import pic from "../images/spain.png";
 import "./sidenavigation.css"
 
 const SideNavigation = () => {

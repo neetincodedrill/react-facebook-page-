@@ -1,5 +1,5 @@
 import "./header.css"
-import pic from "../spain.png";
+import pic from "./images/spain.png";
 
 const Header = () => {
    return(

@@ -1,6 +1,6 @@
-import SideNavigation from "./sideNavigation"
-import Info from "./info";
-import Content from "./content"
+import SideNavigation from "./mainComponent/sideNavigation"
+import Info from "./mainComponent/info";
+import Content from "./mainComponent/content"
 import "./main.css"
 
 const Main = () => {

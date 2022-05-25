@@ -1,15 +1,15 @@
 import "./info.css"
-import Image from "../image.jpg"
-import image6 from "./images/image6.jpg"
-import image7 from "./images/image7.png"
-import person1 from './images/person1.avif'
-import person2 from './images/pserson2.avif'
-import person3 from './images/pserson3.avif'
-import person4 from './images/pserson4.avif'
-import person5 from './images/pserson5.avif'
-import person6 from './images/pserson6.avif'
-import person7 from './images/pserson7.avif'
-import person8 from './images/pserson8.avif'
+import Image from "../images/image.jpg"
+import image6 from "../images/image6.jpg"
+import image7 from "../images/image7.png"
+import person1 from '../images/person1.avif'
+import person2 from '../images/pserson2.avif'
+import person3 from '../images/pserson3.avif'
+import person4 from '../images/pserson4.avif'
+import person5 from '../images/pserson5.avif'
+import person6 from '../images/pserson6.avif'
+import person7 from '../images/pserson7.avif'
+import person8 from '../images/pserson8.avif'
 import Story from "./storyCarosul"
 
 const Info = () => {

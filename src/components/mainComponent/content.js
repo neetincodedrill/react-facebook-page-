@@ -1,10 +1,10 @@
 import "./content.css"
-import image from "../image.jpg"
-import brand4 from "./images/brand4.avif";
-import brand5 from "./images/brand5.avif"
-import brand1 from "./images/brand1.avif"
-import brand2 from "./images/brand2.avif"
-import spash4 from "./images/spash4.avif"
+import image from "../images/image.jpg"
+import brand4 from "../images/brand4.avif";
+import brand5 from "../images/brand5.avif"
+import brand1 from "../images/brand1.avif"
+import brand2 from "../images/brand2.avif"
+import spash4 from "../images/spash4.avif"
 
 const Content = () => {
     return(

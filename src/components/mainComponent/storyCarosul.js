@@ -1,6 +1,6 @@
-import image from "../image.jpg"
+import image from "../images/image.jpg"
 import "./story.css"
-import  brand1 from "./images/brand2.avif"
+import  brand1 from "../images/brand2.avif"
 
 const Story = () => {
     return(
