@@ -1,6 +1,6 @@
 import SideNavigation from "./mainComponent/sideNavigation"
 import Info from "./mainComponent/info";
-import Content from "./mainComponent/content"
+import Content from "./mainComponent/rightContent"
 import "./main.css"
 
 const Main = () => {

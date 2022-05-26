@@ -48,6 +48,12 @@
     padding:0px 15px;
     margin-bottom:10px
 }
+
+.card-component{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
 /* story-board css end here */
 
 /* create-post css start here */

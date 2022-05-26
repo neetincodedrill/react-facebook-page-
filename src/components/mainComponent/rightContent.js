@@ -1,4 +1,4 @@
-import "./content.css"
+import "./rightContent.css"
 import image from "../images/image.jpg"
 import brand4 from "../images/brand4.avif";
 import brand5 from "../images/brand5.avif"

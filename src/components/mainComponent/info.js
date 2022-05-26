@@ -1,3 +1,4 @@
+import Story from "./story"
 import "./info.css"
 import Image from "../images/image.jpg"
 import image6 from "../images/image6.jpg"
@@ -10,9 +11,44 @@ import person5 from '../images/pserson5.avif'
 import person6 from '../images/pserson6.avif'
 import person7 from '../images/pserson7.avif'
 import person8 from '../images/pserson8.avif'
-import Story from "./storyCarosul"
+
+
+
+const images = [
+   {
+      src :require('../images/spash1.avif'),
+      text: "Neha Sharma",
+      profile_pic:require('../images/person1.avif')
+    },
+
+    {
+      src :require('../images/spash2.avif'),
+      text: "Sharma Chetan",
+      profile_pic:require('../images/pserson2.avif')
+    },
+
+   {
+      src :require('../images/spash3.avif'),
+      text: "Be like bro",
+      profile_pic:require('../images/pserson3.avif')
+    },
+
+    {
+      src :require('../images/spash4.avif'),
+      text: "Rahul Verma",
+      profile_pic:require('../images/pserson4.avif')
+    },
+
+    {
+      src :require('../images/brand1.avif'),
+      text: "Vikas Sharma",
+      profile_pic:require('../images/pserson5.avif')
+    },
+  
+];
 
 const Info = () => {
+
     return(
          <div className = "info-container">
 
@@ -22,12 +58,19 @@ const Info = () => {
                  <i class="fa-solid fa-plus"></i>
                  <h4>Create Story</h4>
               </div>
-              <div className="stories">
-                 <Story/>
-              </div>
-            
-            
-             
+              <div className="card-component">
+              { images.map(data =>{
+                 return(
+                  <Story
+                     key = {data.text}
+                     name = {data.text}
+                     profile_pic = {data.profile_pic}
+                     image = {data.src}
+                  />
+                 )
+              })}
+              
+              </div>           
             </div>
 
             <div className="create-post">
@@ -65,6 +108,7 @@ const Info = () => {
                   <img src={person5} alt="nice"/>
                   <img src={person6} alt="nice"/>
                   <img src={person7} alt="nice"/>
+                  <img src={person8} alt="nice"/>
                   <img src={person8} alt="nice"/>
                </div>
                <div className ="arrow">
